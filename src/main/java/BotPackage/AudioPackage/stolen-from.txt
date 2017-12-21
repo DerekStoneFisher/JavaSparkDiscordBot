@@ -1,0 +1,3 @@
+/**
+ * stolen from https://github.com/sedmelluq/lavaplayer/blob/master/demo-jda/src/main/java/com/sedmelluq/discord/lavaplayer/demo/jda/
+ */
