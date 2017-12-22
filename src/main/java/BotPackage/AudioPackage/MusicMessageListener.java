@@ -46,7 +46,7 @@ public class MusicMessageListener extends ListenerAdapter {
             String[] split = userMessageContent.split(" ");
             if (split.length > 1) {
                 if (split[0].equals("play")) {
-                    MusicPlayer.play(split[1]);
+                    MusicPlayer.play(userMessageContent.replaceAll("^play ", ""));
                 } else if (split[0].equals("stop")) {
                     MusicPlayer.stop();
                 }

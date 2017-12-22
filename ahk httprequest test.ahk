@@ -35,6 +35,7 @@ NumpadDel::playFile("skrillex drop the bass continued")
 
 Numpad0::playFile("moo")
 NumpadEnter::playFileRandom("santa claus is coming home")
++NumpadEnter::playFile("Coki")
 
 NumpadDiv::playFile("fartstep repeatable 1")
 +NumpadDiv::playFile("fartstep repeatable 3")
